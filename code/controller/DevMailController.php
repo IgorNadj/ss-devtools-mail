@@ -6,6 +6,11 @@ class DevMailController extends Controller {
 	private static $allowed_actions = array(
 		'testSend',
 		'TestForm',
+		'view'
+	);
+	
+	private static $url_handlers = array(
+		'view/$ID' => 'view'
 	);
 	
 	
@@ -15,6 +20,11 @@ class DevMailController extends Controller {
 	
 	public function Captured(){
 		return StoredEmail::get();
+	}
+	
+	public function view(SS_HTTPRequest $request){
+		$id = $request->param('ID');
+		echo StoredEmail::get()->byID($id)->Body;
 	}
 	
 	public function TestForm(){

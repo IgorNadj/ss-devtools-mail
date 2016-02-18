@@ -11,7 +11,7 @@ $TestForm
 			<th>From</th>
 			<th>To</th>
 			<th>Subject</th>
-			<th>Body</th>
+			<th></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -21,7 +21,9 @@ $TestForm
 				<td>$From</td>
 				<td>$To</td>
 				<td>$Subject</td>
-				<td><pre>$PlainBody</pre></td>
+				<td>
+					<a href="/dev/mail/view/$ID">view</a>
+				</td>
 			</tr>
 		<% end_loop %>
 	</tbody>
