@@ -1,0 +1,9 @@
+---
+Name: DevToolsMail
+---
+DevelopmentAdmin:
+  registered_controllers:
+    mail:
+      controller: 'DevMailController'
+      links:
+        mail: 'View captured emails'
