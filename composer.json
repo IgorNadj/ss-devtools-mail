@@ -1,5 +1,5 @@
 {
-    "name": "silverstripe/devtools-mail",
+    "name": "igornadj/devtools-mail",
     "description": "Mail tools for SilverStripe",
     "require": {
         "silverstripe/framework": "~3.2"
