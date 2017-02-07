@@ -1,2 +1,2 @@
 
-composer require igornadj/devtools-mail
+composer require --dev igornadj/devtools-mail
