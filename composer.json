@@ -3,5 +3,8 @@
     "description": "Mail tools for SilverStripe",
     "require": {
         "silverstripe/framework": "~3.2"
+    },
+    "config": {
+        "vendor-dir": "devtools-mail"
     }
 }
